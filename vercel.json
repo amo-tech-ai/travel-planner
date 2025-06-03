@@ -1,0 +1,13 @@
+{
+  "framework": "nextjs",
+  "functions": {
+    "app/**": {
+      "maxDuration": 60
+    }
+  },
+  "build": {
+    "env": {
+      "NEXT_PUBLIC_VERCEL_URL": "$VERCEL_URL"
+    }
+  }
+}
